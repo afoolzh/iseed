@@ -2124,7 +2124,7 @@ class IseedTest extends TestCase
     {
         $iseed = new Afoolzh\Iseed\Iseed();
         $output = $iseed->generateClassName('tablename');
-        $this->assertEquals('TablenameTableSeeder', $output);
+        $this->assertEquals('TablenameSeeder', $output);
     }
 
     public function testCanGetStubPath()
